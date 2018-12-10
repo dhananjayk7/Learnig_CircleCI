@@ -7,4 +7,7 @@ class Main_Class():
         self.name= name
 
 
+    def add(self,a,b):
+
+        return a+b
 
