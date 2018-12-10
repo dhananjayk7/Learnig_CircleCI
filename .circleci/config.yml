@@ -3,12 +3,12 @@ jobs:
   build:
     working_directory: ~/tmp
     docker:
-      - image:circleci/python3
+      - image:circleci/circleci/python:3.6.1
 
     steps:
       - checkout
       - run: python -m unittest test_main.py
-      
+
 
 
 
